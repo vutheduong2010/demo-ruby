@@ -61,3 +61,10 @@ if x.length != 0
 else
   puts "x is not empty"
 end
+puts"======="
+
+if x.length != 0
+  puts "x is not empty."
+else
+  puts "x is not empty"
+end
