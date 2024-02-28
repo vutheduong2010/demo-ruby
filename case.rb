@@ -22,3 +22,14 @@ when 10
 else
   puts" number is greater than 10"
 end
+
+puts"==========="
+$b = 20
+case $b
+when 0..19
+  puts"so hien thi nho hon 20"
+when 20
+  puts "so hien thi bang 20"
+else
+  puts"so hien thi lon hon 20"
+end

@@ -36,3 +36,19 @@ begin
   puts"gia tri trong vong lap i = #{i}"
   i+=1
 end while i < 8
+
+puts"============"
+puts" nhap gia tri "
+i =2
+while i <10 do
+  puts"gia tri cua bien i = #{i}"
+  i+=2
+end
+
+puts"==========="
+puts"nhap gia tri"
+i= 2
+begin
+  puts" gia tri cua bien i = #{i}"
+  i+=1
+end while i <10

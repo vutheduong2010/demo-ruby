@@ -45,7 +45,7 @@ begin
 end until i>15
 
 puts"=========="
-puts "gia tri giam dan"
+puts "gia tri tang dan"
 i=1
 until i > 15 do
   puts"gia tri trong vong lap i = #{i}"
