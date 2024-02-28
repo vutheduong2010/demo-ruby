@@ -52,3 +52,11 @@ begin
   puts" gia tri cua bien i = #{i}"
   i+=1
 end while i <10
+
+puts"==========="
+puts"gia tri"
+i=1
+while i < 14 do
+puts" gia tri cua i: #{i}"
+i+=1
+end
