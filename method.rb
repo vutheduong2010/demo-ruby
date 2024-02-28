@@ -41,3 +41,48 @@ end
 print_your_name "Duong"
 
 puts"==========="
+def d(name)
+  puts" Hello #{name}"
+end
+d"Vu The Duong"
+
+puts"============"
+
+def h(name = "baby")
+  puts" Hello #{name.capitalize}"
+end
+h "Duong"
+
+puts"============="
+def h(x =1,y =2)
+  p x+y
+end
+h
+puts"==========="
+
+def h1(x=10,y=5)
+  p "x / y = #{x / y}"
+end
+
+def h2(x=5.0,y=10.0)
+  return puts " x / y = #{x / y}"
+end
+
+def h3(x=2, y=0)
+  return puts "x / y = #{x/y}" if y > 0
+  puts"Don't calculate because y <=0"
+end
+
+def h4(x=5.0,y=10.0)
+  return puts " x/y = #{x/y}" if y >0
+end
+
+puts "1. result"
+h1
+puts"2.result"
+h2
+puts " 3.result"
+h3
+puts " 4.result"
+h4
+
