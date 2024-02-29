@@ -25,13 +25,4 @@ puts p2.get_sides
 puts p1.get_sides
 puts Vti.sides
 
-p2 = Vti.new
-p2.set_sides 30
-puts p2.get_sides
-puts p1.get_sides
-puts Vti.sides
-
-p3 =Vti.new
-p3.set_sides 40
-puts p3.get_sides
 

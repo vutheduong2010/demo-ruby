@@ -58,3 +58,9 @@ for i in 0..8
   puts:"gia tri bien i: #{i}"
 end
 
+puts"=========="
+for i in 0..2
+  puts" gia tri cua i: #{i}"
+end
+puts"\n"
+(0..2).each{|i|puts " gia tri cua i #{i}"}
