@@ -14,6 +14,7 @@ my_array.each do |element|
 end
 
 puts my_array.include?(7)
+puts my_array.include?(12)
 
 puts"=================="
 numbers = [1,2,3,4,5]

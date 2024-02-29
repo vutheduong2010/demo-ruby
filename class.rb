@@ -77,3 +77,13 @@ class Cccd
 end
 cong_dan_1 = Cccd.new("Vu The Duong", "034201012661", "20/10/2001", "Nam", "Cuc canh sat thi tran Dong Hung", "03/05/2023", "03/05/2026")
 cong_dan_1.hien_thi_thong_tin
+
+puts"==========="
+class MyClass
+  def instance_method
+    puts self
+  end
+end
+
+obj = MyClass.new
+obj.instance_method
