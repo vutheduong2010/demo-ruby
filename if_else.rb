@@ -56,8 +56,33 @@ else
 end
 
 puts "==========="
-if x.length != 0
-  puts "x is not empty."
+x = 1
+if x > 2
+  puts"x is greater than 2"
+elsif x <= 2 and x!= 0
+  puts"x is 1"
 else
-  puts "x is not empty"
+  puts" i can't guess the number"
+end
+$debug = 1
+puts "debug\n" if $debug
+
+puts"==========="
+x = 1
+if x > 5
+  puts"x lon hon 5"
+elsif x <=5 and x != 0
+  puts"x nho hon hoac bang 5"
+else
+  puts"khong tim duoc gia tri cua x"
+end
+puts"============"
+
+x = "abcdef"
+if x.length < 6
+  puts"mat khau qua ngan"
+elsif x.length < 50
+  puts"dang nhap thanh cong"
+else
+  puts" mat khau qua dai"
 end
