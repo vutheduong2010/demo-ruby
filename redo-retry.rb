@@ -6,6 +6,17 @@ for i in 0..5
 end
 
 puts"============="
-for i in 1..5
-  retry if i ==1
+i = 5
+while i < 5
+  puts i
+  i +=1
+  redo if i ==0
+end
+
+puts"================="
+begin
+  result = 10/0
+rescue ZeroDivisionError
+  puts "Error: Division by zero"
+  retry
 end

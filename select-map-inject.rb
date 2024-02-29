@@ -19,3 +19,13 @@ puts "\n"
 a=[3,6,10,13]
 puts "inject method: #{a.inject{|sum, number| sum +number}}"
 
+puts"================"
+numbers = [1,2,3,4,5]
+result = numbers.map { |number| number +2}
+puts result.inspect
+
+puts"============="
+numbers = [1,2,3,4,5]
+sum = numbers.inject(0) {|total, number| total  + number}
+puts sum
+
